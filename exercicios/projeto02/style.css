@@ -1,0 +1,187 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo{
+  width: 180px;
+}
+
+.header{
+  width: 100%;
+  min-height: 40px;
+  background-color: rgba(0, 0, 0, 0.803);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 25px;
+  gap: 10px 15px;
+}
+.logo{
+  width: 180px;
+}
+.navBTN{
+  display: flex;
+gap: 15px;
+}
+
+.botao{
+  font-size: 17px;
+  padding: 10px;
+  border: 2px solid transparent;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+.botao:hover{
+  border-bottom: 2px solid black ;
+}
+.title{
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  text-align: center;
+  padding: 10px;
+}
+
+.texto{
+  text-align: center;
+  color: rgba(0, 0, 0, 0.804);
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-areas:"main-content side-content" ;
+  padding: 20px;
+  flex: 1 0 auto;
+}
+
+.main-img{
+  width: 100%;
+  height: 180px;
+  border-radius: 10px;
+ 
+}
+
+.side-img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.post-content{
+    width: 280px;
+    height: 380px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+ }
+
+.main-content{
+  display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 10px;
+grid-area: main-content;
+}
+
+.post-content:hover{
+  border-color: black;
+}
+
+.titulo3{
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+}
+
+.side-content{
+  background-color: rgba(0, 0, 0, 0.803);
+  color: white;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 300px;
+  grid-area: side-content;
+  gap: 10px;
+}
+
+.side-card{
+  width: 75%;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.side-card:hover{
+  border-color: white;
+  padding: 5px;
+}
+
+.side-paragrafo{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 10px;
+}
+
+.logo-footer{
+width: 180px; 
+}
+
+.rodape{
+  width: 100%;
+  min-height: 40px;
+  background-color: rgba(0, 0, 0, 0.803);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 25px;
+  gap: 15px;
+}
+
+.anchor-rodape{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.anchor-rodape:hover{
+text-decoration: underline;
+color: yellowgreen;
+}
+
+
+@media (max-width:597px){
+  .grid-container{
+    grid-template-areas: "main-content"  "side-content";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .side-content{
+    min-width: 280px;
+  }
+}
+@media (max-width:474){
+  .header{
+    justify-content: center;
+  }
+
+.rodape{
+  justify-content: center;
+}
+
+}

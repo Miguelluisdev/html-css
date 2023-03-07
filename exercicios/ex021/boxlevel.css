@@ -1,0 +1,27 @@
+h1{
+  height: 300px;
+  width: 300px;
+  background-color: lightblue;
+  border-width: 10px;
+  border-style: solid;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+
+outline-width: 5px;
+outline-style: dashed;
+outline-color: darkgreen;
+
+
+
+}
+a{
+   border-width: 5px;
+   border-style: solid;
+   padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+background-color: red;
+}

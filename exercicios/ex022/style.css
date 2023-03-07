@@ -1,0 +1,16 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+
+.img-content{
+  width: 765px;
+  height: 400px;
+}
+
+.text-content{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+

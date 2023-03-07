@@ -1,0 +1,48 @@
+header ,tres tecnologias vão dominar o planeta no futuro?
+ com [home, login,registro e sobre]
+
+  titulo   {realidade virtual avançada}
+    lado esquerdo uma img e ao lado o texto[ a realidade virtual vai ser a disseminação de tecnologias que levaram reuniões, encontros sociais e eventos ao mundo digital
+
+A imersão de mundos virtuais conectados vai substituir as atuais interfaces de videoconferência e entretenimento, como nos videogames, a realidade virtual vai ter uma especie de matrix, que qualquer um podera acessar, e vai servir como uma rede de entretenimento.]
+
+
+o texto da direita vai ter uma borda responsiva
+
+
+
+texto a esquerda e uma imagem de nanotecnologia a direita
+ 
+nano tecnologia{ As nanotecnologias abriram as portas a inúmeros campos de aplicação, abrangendo setores como a eletrônica, a construção, a medicina, os têxteis, a energia e o ambiente. Assim como na produção de bens de consumo, onde os nanomateriais são utilizados em centenas de aplicações.O objetivo da nanotecnologia é criar produtos e dispositivos radicalmente novos, graças à contribuição de diferentes disciplinas, incluindo biologia molecular, química, ciência dos materiais, física, engenharia mecânica e eletrônica.
+}
+
+é claro que nao pode faltar as IA, inteligencia artificial 
+tres textos falando sobre inteligencia artificial
+
+Superinteligência artificial
+O desenvolvimento da superinteligência artificial provavelmente marcará o auge da pesquisa em IA, já que a IA se tornará de longe a forma de inteligência mais capaz do planeta.
+  Autoconsciente
+ Além de replicar a inteligência multifacetada dos seres humanos, será extremamente melhor em tudo o que faz por conta da memória esmagadoramente maior, processamento e análise de dados mais rápidos e capacidades de tomada de decisão.
+Singularidade
+O desenvolvimento de AGI e ASI levará a um cenário conhecido como singularidade. E embora o potencial de ter máquinas tão poderosas à nossa disposição pareça atraente, essas máquinas também podem ameaçar nossa existência ou, pelo menos, nosso modo de vida.
+
+
+uma img abaixo sobre IA
+
+footer com dois icons com hover do githube discord
+
+<article class="third-content" >
+<div class="text">
+                
+  <p>  
+    <strong>Superinteligência artificial</strong>
+     O desenvolvimento da superinteligência artificial
+      provavelmente marcará o auge da pesquisa em IA, já que a IA se tornará de longe a forma de inteligência mais capaz do planeta. </p>
+                 <h3>Autoconsciente</h3>
+  <p> Além de replicar a inteligência multifacetada dos seres humanos, será extremamente melhor em tudo o que faz por conta da memória esmagadoramente maior, processamento e análise de dados mais rápidos e capacidades de tomada de decisão.</p>
+  <h3>Singularidade</h3>
+</p>
+  O desenvolvimento da IA levará a um cenário conhecido como singularidade. E embora o potencial de ter máquinas tão poderosas à nossa disposição pareça atraente, essas máquinas também podem ameaçar nossa existência ou, pelo menos, nosso modo de vida.</p>
+</div>
+     
+</article>

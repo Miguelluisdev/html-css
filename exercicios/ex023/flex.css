@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  background-color: yellow;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ height: 50vh;
+
+}
+.item{
+  background-color: pink;
+  margin: 10px;
+}
+ 
+
