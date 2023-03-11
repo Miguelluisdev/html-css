@@ -7,7 +7,44 @@
 }
 
 :root{
+    --cor1:#222426;
+    --cor2:#BF9A2C;
+    --cor3:#F27329;
+    --cor4:#BF3124;
+    --cor5:#73261F;
+
+
   --font-padrao:'Roboto Condensed', sans-serif;
 
   --font-titulo: 'arcane',sans-serif  ;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-padrao);
+}
+/*body{
+  background image linear gradient
+}
+*/
+.header{
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.logo{
+  width: 100px;
+  
+}
+
+.arcane{
+  width: 700px;
+  border-radius: 10px;
+}
+
+.img-footer{
+  width: 500px;
 }
