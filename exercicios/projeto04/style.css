@@ -3,7 +3,7 @@
 @font-face {
   font-family: 'arcane',sans-serif ;
   src: url(fonts/Arcane\ Nine.otf) format('opentype')   ;
-  
+  font-weight: 500;
 }
 
 :root{
@@ -24,20 +24,24 @@
   box-sizing: border-box;
   font-family: var(--font-padrao);
 }
-/*body{
-  background image linear gradient
+body{
+  min-height: 100vh;
+  background-image: linear-gradient(to left
+  , var(--cor1), var(--cor4)  );
+  color: white;
 }
-*/
 .header{
   display: flex;
   text-align: center;
   justify-content: space-around;
   padding: 20px;
+ gap: 10px 15px;
 }
 
 .logo{
-  width: 100px;
-  
+  width: 200px;
+  background-color: black;
+  padding: 10px;
 }
 
 .arcane{
