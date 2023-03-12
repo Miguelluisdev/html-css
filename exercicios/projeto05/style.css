@@ -68,15 +68,28 @@ section.normal{
 section.img{
   background-color: rgba(0, 0, 0, 0.568);
   color: white;
+  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.516);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 section.img  p{
-  background-color: rgba(0, 0, 0, 0.303);
+  background-color: rgba(0, 0, 0, 0.325);
  display: inline-block;
   padding: 8px;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.616);
 }
 
+section#img1{
+  background-image: url(imagens/background001.jpg);
+  background-position: right center;
+  
+}
 
+section#img2{
+  background-image: url(imagens/background002.jpg);
+  
+}
 
 
 pre{
