@@ -4,56 +4,72 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DTabela</title>
+  <title>desafios</title>
   <style>
     body{
       font-family: Arial, Helvetica, sans-serif;
     }
     table{
+      width: 400px;
+      height: 200px;
       border-collapse: collapse;
-      width: 300px;
     }
-    td{
+    th, td{
       border: 1px solid black;
-      padding: 10px;
-      text-align: center;
     }
 
+    th{
+      background-color: gray;
+      color: white;
+    }
   </style>
 </head>
 <body>
-    <h1>Mesclagem de celulas</h1>
-<table>
-
-<tr>
-  <td>A</td>
-  <td colspan="2" >B</td>
- 
-</tr>
-
-
-<tr> <td rowspan="3" >D</td>
-     <td>E</td>
-      <td rowspan="2" >F</td>
-</tr>
+  <table>
+    <thead>
+            <tr>
+              <th rowspan="2" >area</th>
+              <th rowspan="2" >disciplinas</th>
+              <th>nota</th>
+              <th rowspan="2"  >media</th>
+            </tr>
+            <tr>
+            <th>nota1 nota2</th>
+            </tr>
 
 
-<tr>
-    
-    <td>H</td>
-   
-</tr>
+    </thead>
+
+    <tbody>
+
+        <tr>
+          <th scope="rowgroup" >
+            Exatas
+          </th>
+          <td>matematica</td>
+          <td>00</td>
+          <td>fisica</td>
+          <td>00</td>
+          <td>quimica</td>
+          <td>00</td>
+          <td>biologia</td>
+          <td>00</td>
+        </tr>
 
 
 
-<tr>
 
-  <td>K</td>
-  <td>M</td>
-</tr>
+    </tbody>
 
 
-</table>
+  </table>
+
+
+
+
+
+
+
 
 
 
