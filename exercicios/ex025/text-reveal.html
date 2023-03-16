@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text reveal</title>
+  <style>
+    body{
+      display: grid;
+      place-items: center;    
+      font-size: 300%;
+      height: 100vh;
+      font-family: sans-serif;
+    
+    }
+
+.text-reveal{
+  overflow: hidden;
+        position: relative;
+}
+
+    .text-reveal::after{
+      animation: text-reveal 2s ease forwards;
+      background-color: #157bad;
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0%;
+      right: 0%;
+      left: 0;
+      bottom: 0;
+    }
+
+h1{
+  opacity: 0;
+  animation: fade 1ms 0.5s forwards  ;
+}
+
+    @keyframes text-reveal {
+      from{
+        transform: translateX(-101%);
+      }
+      to{
+        transform: translateX(101%);
+      }
+      
+    }
+
+
+    @keyframes fade {
+      to{
+        opacity: 1;
+      }
+      
+    }
+
+
+  </style>
+</head>
+<body>
+    <div class="text-reveal">
+      <h1>Text Reveal</h1>
+    </div>
+
+
+
+
+
+
+
+
+</body>
+</html>
