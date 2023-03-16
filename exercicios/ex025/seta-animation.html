@@ -5,7 +5,25 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Animaçao de seta</title>
-  <style></style>
+    <style>
+        body{
+          display:grid;
+          place-items: center;
+          height: 100vh;
+          animation: seta 1s ease-in-out alternate  infinite;
+        }
+        img{
+          width: 200px;
+        }
+
+        @keyframes seta{
+          to{
+            transform: translateX(30px);
+          }
+        }
+
+
+  </style>
 </head>
 <body>
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9f17CEht3k7RAB0y1YUVW1B0ByibAQzweLw&usqp=CAU" alt="seta">
