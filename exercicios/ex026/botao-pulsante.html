@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Botao pulsante</title>
+  <style>
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+
+   body{
+    background-color: #262626;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+   }
+.pulsar img{
+  width: 180px;
+  height: 180px;
+  background: transparent;
+}
+
+.pulsar{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-color: #9800ce;
+  display: flex;
+  align-items: center;
+  justify-content:center ;
+  border-radius: 50%;
+
+}
+
+.pulsar::before, .pulsar::after{
+  content: '';
+  display: block;
+  position: absolute;
+  left: -60px;
+  right: -60px;
+  top: -60px;
+  bottom: -60px;
+  border-radius: 50%;
+  border: 2px solid #9800ce;
+  animation: pulsante 1.5s linear infinite;
+  opacity: 0;
+}
+.pulsar::after{
+  animation-delay: 1.5s;
+}
+@keyframes pulsante{
+  0%{
+    transform: scale(0.5);
+    opacity: 0;
+  }
+
+  50%{
+    opacity: 1;
+  }
+  100%{
+    transform: scale(1.2);
+    opacity: 0;
+  }
+  }
+
+
+
+
+  </style>
+</head>
+<body>
+        <div class="pulsar">
+
+            <img src="phone.png" alt="phone" class="img"  >
+        </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
