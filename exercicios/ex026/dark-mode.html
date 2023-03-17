@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dark mode Css</title>
+  <style>
+
+:root{
+  --body-bg:#fafafa ;
+  --body-color:#555 ;
+  --link-color: #222 ;
+  --link-color-hover: #ec5840;
+}
+
+.dark-mode:root{
+  --body-bg:#fafafa ;
+  --body-color:#555 ;
+  --link-color: #222 ;
+  --link-color-hover: #ec5840;
+}
+
+
+
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.4em;
+      padding: 20px;
+      background-color:var(--body-bg);
+      color:var(--body-color);
+    }
+    
+
+    a{
+      color:var(--link-color);
+    }
+
+  a:hover{
+    color:var(--link-color-hover);
+  }
+
+
+  </style>
+</head>
+<body class="dark-mode" >
+    <h1>Lorem ipsum dolor sit amet.</h1>
+  
+<p>Lorem ipsum dolor, <a href="#">sit amet consectetur adipisicing elit.</a> Corporis autem ipsum explicabo ratione. Et, at odio eum, eius corporis nobis aut maiores molestiae eos quas necessitatibus assumenda? Ipsa, fuga eligendi!</p>
+
+
+<label for="checkbox">
+  <input type="checkbox" name="checkbox" id="checkbox"> Dark mode agr e com js falta aprender
+</label>
+
+
+</body>
+</html>
