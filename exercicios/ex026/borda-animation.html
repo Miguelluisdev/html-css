@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Borda animation</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #520120;
+}
+.borda{
+  position: relative;
+color: white;
+width: 500px;
+height: 500px;
+background-color:#520120 ;
+display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  font-size: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+
+.borda::before, .borda::after{
+  content: '';
+  position: absolute;
+  width: calc(100% + 30px);
+  height: calc(100% + 30px);
+  background: linear-gradient(45deg,#08403E,#706513,#962B09,blue,yellow,red);
+  z-index: -1;
+  background-size: 300%;
+  background-repeat: repeat;
+  background-position: 100%;
+  border-radius: 8px;
+  animation: border 4s linear infinite alternate;
+}
+
+
+@keyframes border{
+0%{
+  background-position: 0;
+}
+
+
+100%{
+  background-position: 300%;
+}
+
+
+}
+
+
+.borda::after{
+  filter: blur(50px);
+}
+
+
+
+/* Color Theme Swatches in Hex */
+.October-1-hex { color: #520120; }
+.October-2-hex { color: #08403E; }
+.October-3-hex { color: #706513; }
+.October-4-hex { color: #B57114; }
+.October-5-hex { color: #962B09; }
+
+
+  </style>
+</head>
+<body>
+  
+<div class="borda">
+  <p>Welcome back</p>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+</body>
