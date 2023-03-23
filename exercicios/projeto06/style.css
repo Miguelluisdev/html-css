@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+:root{
+  --cor1:#D9A23D;
+  --cor2:#BF8450;
+  --cor3:#8C5D42 ;
+  --cor4:#A63737;
+  --cor5:#F2F2F2;
+  --fontitulo: 'Cabin', sans-serif;
+  --fontpadrao: 'Work Sans', sans-serif;
+}
