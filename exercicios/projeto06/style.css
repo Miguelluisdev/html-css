@@ -99,6 +99,7 @@ p{
   padding: 54px ;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .header-content .text{
@@ -164,11 +165,11 @@ p{
 .content2{
   border: 1px solid transparent;
   transition-duration: 0.3s;
+  background-color: var(--cor1);
 }
 
 .content2:hover{
   border-color: var(--cor3);
-  background-color:var(--cor1);
 }
 
 
@@ -224,7 +225,40 @@ p{
     width: 100%;
     padding: 10px;
   }
+/* sidebar */
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--cor3);
+  text-align: center;
+  color: black;
+  flex-wrap: wrap;
+}
 
+.sidebar a{
+  color:#D9A23D;
+  text-decoration: solid;
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+.sidebar a:hover{
+  color: #F2F2F2;
+}
+
+.sidebar > h1{
+  padding: 5px;
+}
+
+
+
+.sidebar img{
+  width: 50%;
+  border-radius: 10px;
+  padding: 10px;
+}
 
   /* aside{
   background-color: var(--cor3);
