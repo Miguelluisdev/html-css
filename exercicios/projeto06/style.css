@@ -80,7 +80,7 @@ body{
   }
 
   to{
-      outline: 10px solid var(--cor2);
+      outline: 5px solid var(--cor2);
   }
 }
 
