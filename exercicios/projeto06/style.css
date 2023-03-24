@@ -10,3 +10,100 @@
   --fontitulo: 'Cabin', sans-serif;
   --fontpadrao: 'Work Sans', sans-serif;
 }
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--fontpadrao);
+  text-decoration: none;
+  outline: none;
+}
+
+body{
+  background-color: var(--cor5);
+}
+
+
+.header{
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-image: url('img/cats4.jpg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.nav a{
+  color: black;
+  font-family: var(--fontitulo);
+ font-size: 1.2em;
+ transition: 0.5s;
+ padding: 10px;
+ transition: 0.5s;
+}
+.nav a:hover{
+  border: 1px solid var(--cor1);
+   border-radius: 10px;
+}
+
+.btn{
+  background-color: var(--cor1);
+  color:white ;
+  padding: 15px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1em;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn:hover{
+  background-color: var(--cor4);
+}
+
+h1{
+  font-size: 1.9em;
+  font-family: var(--fontitulo);
+  font-weight: 400;
+}
+
+p{
+  color: black;
+}
+
+
+.header-content{
+  padding: 54px ;
+  display: flex;
+  justify-content: center;
+}
+
+.header-content .text{
+  margin: 150px;
+  text-align: center;
+  padding: 0 90px ;
+}
+
+.header-content .text h1 {
+  font-size: 3em;
+  color: black;
+  font-family: var(--fontitulo);
+}
+
+.header-content .text p{
+  font-size: 1.3em ;
+  font-weight: 700;
+  margin: 18px 0;
+}
