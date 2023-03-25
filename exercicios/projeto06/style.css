@@ -33,6 +33,7 @@ body{
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  text-align: center;
 }
 
 .nav{
@@ -119,6 +120,22 @@ p{
   font-weight: 700;
   margin: 18px 0;
 }
+
+/* menu mobile */
+.header .menu-icon{
+  cursor: pointer;
+  font-size: 25px;
+  color: black;
+  display: none;
+}
+
+  .nav .close-icon{
+    display: none;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+  }
+
 /* conteudo principal  */
 
 .conteudo .content1{
@@ -269,6 +286,46 @@ footer{
   padding: 40px 100px 50px ;
 }
 
+@media(max-width: 413px){
+/* menu responsivo */
+
+.nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: red;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center ;
+  clip-path: circle(0% at 100% 0);
+  transition: 0.7s;
+}
+
+.nav .open{
+  clip-path: circle(70.7% at 50% 50%);
+}
+
+.nav a{
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.header .menu-icon {
+display: block;
+}
+
+.nav .close-icon{
+  display: block;
+  position: absolute;
+  top: 46px;
+  right: 28px;
+}
+
+}
+
+
 .icons{
   margin-bottom: 20px;
 }
@@ -296,7 +353,7 @@ footer{
 }
 
 .text-footer{
-  font-size: 15px;
+  font-size: 1.4em;
   margin-top: 25px;
 }
 
@@ -325,6 +382,23 @@ footer{
     opacity: 0;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   /* aside{
   background-color: var(--cor3);
   color: white;
