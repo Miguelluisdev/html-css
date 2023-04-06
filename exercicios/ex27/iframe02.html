@@ -10,9 +10,11 @@
       font-family: Arial, Helvetica, sans-serif;
     }
     iframe{
-      width: 500px;
+      width: 95vw;
+      height: 20vw;
       display: block;
       margin: auto;
+      border: 1px solid black;
     }
   </style>
 </head>
@@ -20,10 +22,20 @@
   <h1>
   teste de ifraame
   </h1>
+
+<div class="pag">
+  <p>acesse aqui outras paginas</p>
+  <a href="https://github.com/Miguelluisdev" target="frame"  >Primeira</a>
+  <a href="https://twitter.com/MiguelL11294836" target="frame"  >segunda</a>
+  <a href="iframe1.html" target="frame"  >terceira</a>
+</div>
+
   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae veritatis officiis sed aut ratione. Molestiae placeat, quibusdam nobis sapiente dolorum doloribus. Laborum eos eius at cumque accusamus voluptas voluptate reiciendis!</p>
 
 
-<iframe src="https://miguelluisdev.github.io/html-css/exercicios/projeto03/" frameborder="0"  width="500px" height="300px" > caso nao apareça</iframe>
+<iframe srcdoc=" <h1> escolha uma das opçoes acima </h1> " name="frame" frameborder="1">
+  <p>infelismente seu navegador na e compativel</p>
+</iframe>
 
 
 
