@@ -18,11 +18,33 @@
             <input type="checkbox" name="nat" id="inat" > <label for="inat">natação</label> <br>
 
 
-
-
-
         </fieldset>
 <br>
+
+<label for="iest">Estado:</label>
+<select name="est" id="iest">
+  <optgroup label="regiao sudeste" >
+    <option value="RJ">Rio de janeiro</option>
+    <option value="MG">MInas gerais</option>
+    <option value="SP">São paulo</option>
+  </optgroup>
+</select>
+
+
+<label for="iprof">Profissão:</label>
+<input type="text" name="prof" id="iprof" list="lstprof">
+<datalist id="lstprof" >
+  <option value="ADM">administrador</option>
+  <option value="COz">cozinheiro</option>
+  <option value="Dev">desenvolvedor</option>
+</datalist>
+
+
+
+
+
+
+
         <div>
           <input type="submit" value="Enviar" >
           <input type="reset" value="Limpar" >
