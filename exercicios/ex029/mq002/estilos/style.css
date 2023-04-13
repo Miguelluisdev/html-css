@@ -9,10 +9,51 @@
 }
 
 body,html{
-  width: 100vw;
  height: 100vh;
 }
 
 body{
   background: black url(../img/back-phone.jpg) ;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
+
+main{
+  background-color: rgba(255, 255, 255, 0.759);
+  width: 400px;
+  margin: auto;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+h1{
+  text-align: center;
+  color: white;
+  text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.611);
+}
+
+
+img{
+  display: block;
+  margin: auto;
+}
+
+img#phone{
+  display: block;
+}
+img#tablet{
+  display: none;
+}
+img#print{
+  display: none;
+}
+img#pc{
+  display: none;
+}
+img#tv{
+  display: none;
+}
+
+
