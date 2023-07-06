@@ -13,7 +13,25 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container"></div>
+    <div class="container">
+      <form
+        action="https://www.google.com/search"
+        class="search"
+        id="seach-bar"
+      >
+        <input
+          type="search"
+          name="q"
+          id="search-input"
+          placeholder="escreva alguma coisa..."
+          class="search__input"
+        />
+        <div class="search__button" id="search-button">
+          <i class="ri-search-line search__icon"></i>
+          <i class="ri-close-line search__close"></i>
+        </div>
+      </form>
+    </div>
     <!-- JS -->
     <script src="script.js"></script>
   </body>
